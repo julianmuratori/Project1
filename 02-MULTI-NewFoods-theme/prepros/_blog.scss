@@ -1,0 +1,118 @@
+.blogSplash {
+  background: url(./assets/blog_hero.jpg);
+  background-size: cover;
+  margin-top: 20px;
+}
+
+.blogGallery {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.blogGallery-filter {
+  background: #B44A47;
+  padding: 10px;
+  text-align: center;
+  margin: 50px 0 30px;
+
+
+  h6, form, button {
+    display: inline-block;
+    background: #B44A47;
+
+  }
+
+  form {
+    margin: 0 15px;
+    width: 200px;
+  }
+
+  select {
+    border: none;
+    border-radius: 0;
+    // background: #B44A47;
+    color: white;
+    border-bottom: 1px solid white;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    background: url(./assets/white-arrow-down.png);
+    padding-right: 125px;
+  }
+
+  button {
+    border: 1px solid white;
+    padding: 5px 15px;
+    color: white;
+  }
+
+  h6 {
+    font-size: 1.2rem;
+    margin: 0;
+    padding-right: 20px;
+  }
+
+}
+
+.galleryBox {
+  border: 1px solid grey;
+  margin: 20px 10px;
+  width: calc(33.3% - 20px);
+  float: left;
+
+  p.galleryDescription {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin: 20px 0 0;
+    position: relative;
+
+    &:before {
+      content: "";
+      border: 2px solid black;
+      display: inline-block;
+      width: 10px;
+      position: absolute;
+      left: 20px;
+      top: 3px;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+
+  div {
+    display: inline-block;
+    width: 40;
+    vertical-align: middle;
+    font-size: .9rem;
+
+
+    }
+
+  p {
+    padding: 10px 20px;
+    color: black;
+    font-weight: 600;
+  }
+
+}
+
+.loadMore {
+  text-align: center;
+  padding: 20px 0;
+
+  .galleryButton {
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 5px 10px;
+  }
+}
+
+.wineSplash {
+  background: url(./assets/wine.jpg);
+  background-size: cover;
+  padding-top: 350px;
+  padding-bottom: 100px;
+  position: relative;
+  // padding-left
+}

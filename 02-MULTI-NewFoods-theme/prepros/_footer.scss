@@ -1,0 +1,57 @@
+.locations, .hours {
+  width: 50%;
+  float: left;
+  padding: 90px 40px;
+  color: grey;
+
+  ul {
+    // margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style: none;
+
+  }
+
+}
+
+.contactInfo {
+  background: url(./assets/footer_bg_02.jpg);
+
+}
+
+
+.copyright {
+  color: grey;
+  background: black;
+  display: inline-block;
+  width: 100%;
+
+  .copyright-Container {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+
+  p {
+    display: inline-block;
+    padding: 15px 0;
+    // width: 50%;
+    // text-align: left;
+  }
+
+  p:last-of-type {
+    float: right;
+  }
+}
+
+
+
+.locations ul {
+  width: calc(50% - 20px);
+  margin-right: 10px;
+}
+
+.hours ul {
+  width: calc(33.3% - 30px);
+  margin-right: 10px;
+}

@@ -1,0 +1,107 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: all 1s;
+  // color: black;
+}
+
+.fontPoppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.7rem;
+}
+
+.testimonialQuote {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: grey;
+}
+
+.testimonialQuote-mrLoc {
+  color: grey;
+  position: relative;
+}
+
+.testimonialQuote-mrLoc:before {
+  content:"";
+  border: 2px solid olive;
+  display: inline-block;
+  width: 10px;
+  position: absolute;
+  left: -25px;
+  top: 3px;
+}
+
+
+.aboutUs {
+  p {
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: white;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.4rem;
+  margin: 0 0 20px 0;
+  color: grey;
+
+  a {
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    position: relative;
+
+    &:after {
+      content: url(./assets/rib.png);
+      position: absolute;
+      left:0;
+      right: 0;
+      // top: 0;
+      bottom: -17px;
+      opacity: 0;
+      border-top: 1px solid white;
+      transition: all .4s ease-in-out;
+
+    }
+
+    &:hover:after {
+      opacity: 1;
+    }
+  }
+}
+
+.locations li, .hours li {
+  font-size: 1.2rem;
+}

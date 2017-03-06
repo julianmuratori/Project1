@@ -1,0 +1,26 @@
+.largeWrapper {
+  width: 80%;
+  background: rgba(201,201,201,0.7);
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+
+  img.bell {
+    width: 10%;
+  }
+
+  img.specialty-image {
+    width: 35%;
+  }
+}
+
+.blend {
+  // padding-top: 40px;
+}
+
+.specialties {
+  background: url(./assets/pinapple_row.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  padding: 80px 2.5%;
+}

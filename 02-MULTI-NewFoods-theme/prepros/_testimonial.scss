@@ -1,0 +1,36 @@
+.testimonial {
+
+  padding: 60px 0;
+
+  .smallWrapper {
+  border: 1px solid black;
+  padding: 30px 40px;
+  position: relative;
+  }
+
+  i {
+    // float: left;
+    position: absolute;
+    top: 60px;
+    color: lightgrey;
+    // padding: 20px 5px 5px 5px;
+  }
+
+  .testimonialQuote {
+    display: block;
+    padding-left: 45px;
+  }
+
+  .testimonialQuote-Attribute {
+    // clear: both;
+    // float: left;
+    padding-left: 70px;
+    margin: 0;
+    display: block;
+
+    p {
+      margin: 0;
+      color: grey;
+    }
+  }
+}

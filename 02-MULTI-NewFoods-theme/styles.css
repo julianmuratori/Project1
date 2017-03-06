@@ -1,0 +1,926 @@
+button, hr, input {
+  overflow: visible;
+}
+
+audio, canvas, progress, video {
+  display: inline-block;
+}
+
+progress, sub, sup {
+  vertical-align: baseline;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+menu, article, aside, details, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:active, a:hover {
+  outline-width: 0;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, select {
+  text-transform: none;
+}
+
+[type=submit], [type=reset], button, html [type=button] {
+  -webkit-appearance: button;
+}
+
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
+  outline: ButtonText dotted 1px;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+summary {
+  display: list-item;
+}
+
+[hidden], template {
+  display: none;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+.nav-Img {
+  float: left;
+  width: 15%;
+}
+
+.nav-Img img {
+  width: 80%;
+  padding-top: 15px;
+}
+
+.nav-MainList {
+  float: left;
+  width: 55%;
+  text-align: center;
+}
+
+.nav-MainList a {
+  color: white;
+}
+
+.nav-MainList a:hover {
+  border-bottom: 1px solid red;
+}
+
+.nav-MainList1 {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.nav-MainList1 a {
+  color: black;
+}
+
+.nav-MainList1 a:hover {
+  border-bottom: 1px solid red;
+}
+
+nav {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+nav li a {
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+.nav-SocialMedia {
+  float: left;
+  width: 30%;
+  text-align: right;
+}
+
+.nav-SocialMedia a {
+  color: black;
+}
+
+.nav-SocialMedia-AboutUs {
+  float: left;
+  width: 30%;
+  text-align: right;
+}
+
+.nav-SocialMedia-AboutUs .languageChoice {
+  display: inline;
+  text-align: right;
+}
+
+.nav-SocialMedia-AboutUs a {
+  color: black;
+}
+
+.listReset {
+  list-style: none;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: all 1s;
+}
+
+.fontPoppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.7rem;
+}
+
+.testimonialQuote {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: grey;
+}
+
+.testimonialQuote-mrLoc {
+  color: grey;
+  position: relative;
+}
+
+.testimonialQuote-mrLoc:before {
+  content: "";
+  border: 2px solid olive;
+  display: inline-block;
+  width: 10px;
+  position: absolute;
+  left: -25px;
+  top: 3px;
+}
+
+.aboutUs p {
+  color: grey;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: white;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.4rem;
+  margin: 0 0 20px 0;
+  color: grey;
+}
+
+h6 a {
+  font-size: 1rem;
+  color: white;
+  font-weight: 400;
+  position: relative;
+}
+
+h6 a:after {
+  content: url(./assets/rib.png);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -17px;
+  opacity: 0;
+  border-top: 1px solid white;
+  transition: all .4s ease-in-out;
+}
+
+h6 a:hover:after {
+  opacity: 1;
+}
+
+.locations li, .hours li {
+  font-size: 1.2rem;
+}
+
+.mainSplash {
+  padding-top: 180px;
+  text-align: center;
+}
+
+.mainSplash h5 {
+  margin-bottom: 60px;
+}
+
+header.main {
+  background: url("./assets/hero_01.jpg");
+  background-size: 100% 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.back {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+
+a.reserveNow {
+  background: #a32422;
+  border-radius: 20px;
+  border: 1px solid maroon;
+  padding: 10px 35px;
+  color: white;
+  transition: all 1s;
+}
+
+a.reserveNow:hover {
+  background: white;
+  color: #a32422;
+  border: none;
+}
+
+.smallWrapper {
+  width: 65%;
+  margin: 0 auto;
+  background: white;
+}
+
+.aboutUs-position {
+  position: absolute;
+  left: 17.5%;
+  top: -40px;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.75);
+}
+
+.aboutUs-wineImage {
+  width: 35%;
+  background: url(./assets/wine.jpg);
+  background-size: cover;
+  float: left;
+  height: 240px;
+}
+
+.aboutUs-aboutUs {
+  width: 65%;
+  float: left;
+  padding: 20px;
+  height: 240px;
+}
+
+.aboutUs-meatImage {
+  width: 65%;
+  background: url("./assets/upclose_meat.jpg") no-repeat;
+  background-size: cover;
+  float: left;
+  height: 240px;
+}
+
+.aboutUs-reservations {
+  width: 35%;
+  float: left;
+  padding: 15px;
+  height: 240px;
+}
+
+.aboutUs {
+  text-align: center;
+  background: #f5f5f0;
+  position: relative;
+  height: 400px;
+}
+
+.aboutUs h3 {
+  display: inline-block;
+  border-bottom: 4px solid lightgrey;
+}
+
+.aboutUs .learnMore {
+  display: inline-block;
+  color: grey;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: 1px solid red;
+}
+
+.aboutUs .learnMore:hover {
+  background: #a32422;
+  color: white;
+  border: 1px solid white;
+}
+
+.largeWrapper {
+  width: 80%;
+  background: rgba(201, 201, 201, 0.7);
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.largeWrapper img.bell {
+  width: 10%;
+}
+
+.largeWrapper img.specialty-image {
+  width: 35%;
+}
+
+.specialties {
+  background: url(./assets/pinapple_row.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  padding: 80px 2.5%;
+}
+
+.discoverMenu-Container {
+  margin-top: 0;
+  position: relative;
+  background: transparent;
+  transform: scale(1.15);
+}
+
+.discoverMenu-Container img {
+  width: 100%;
+  display: block;
+}
+
+.discoverMenu-imageContainer {
+  width: calc(50% - 20px);
+  float: left;
+  margin: 10px;
+  box-shadow: 0px 0px 40px 2px rgba(0, 0, 0, 0.75);
+}
+
+.discoverMenu-bgColor {
+  background: #f2f2ed;
+}
+
+.discoverMenu-floatingCircle {
+  background: #a32422;
+  width: 25%;
+  margin: auto;
+  height: 35%;
+  text-align: center;
+  border-radius: 200px;
+  border: 10px solid rgba(161, 34, 34, 0.75);
+  background-clip: padding-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.discoverMenu-floatingCircle img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.discoverMenu h5 {
+  margin: 0;
+  padding: 25px 0 15px;
+}
+
+.discoverMenu h6 {
+  margin: 0;
+}
+
+.largeWrapper {
+  width: 80%;
+  background: rgba(201, 201, 201, 0.7);
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.largeWrapper .blend-image {
+  width: 25%;
+}
+
+.blend {
+  background: url(./assets/berry_pie.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 80px 2.5%;
+}
+
+.testimonial {
+  padding: 60px 0;
+}
+
+.testimonial .smallWrapper {
+  border: 1px solid black;
+  padding: 30px 40px;
+  position: relative;
+}
+
+.testimonial i {
+  position: absolute;
+  top: 60px;
+  color: lightgrey;
+}
+
+.testimonial .testimonialQuote {
+  display: block;
+  padding-left: 45px;
+}
+
+.testimonial .testimonialQuote-Attribute {
+  padding-left: 70px;
+  margin: 0;
+  display: block;
+}
+
+.testimonial .testimonialQuote-Attribute p {
+  margin: 0;
+  color: grey;
+}
+
+.emailList {
+  background: url(./assets/wine.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  padding: 125px 0;
+  position: relative;
+}
+
+.emailList .emailList-Circle {
+  background: white;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  color: black;
+  text-align: center;
+  position: absolute;
+  left: calc(50% - 50px);
+  bottom: -25px;
+  border-radius: 200px;
+}
+
+.emailList .emailList-Circle:hover {
+  color: white;
+  background: black;
+}
+
+.emailList .emailList-Container {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.emailList .emailList-Container p {
+  color: lightgrey;
+}
+
+.emailList .emailList-Container .emailList-Field {
+  width: 100%;
+  padding: 7px 0;
+}
+
+.locations, .hours {
+  width: 50%;
+  float: left;
+  padding: 90px 40px;
+  color: grey;
+}
+
+.locations ul, .hours ul {
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+}
+
+.contactInfo {
+  background: url(./assets/footer_bg_02.jpg);
+}
+
+.copyright {
+  color: grey;
+  background: black;
+  display: inline-block;
+  width: 100%;
+}
+
+.copyright .copyright-Container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.copyright p {
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.copyright p:last-of-type {
+  float: right;
+}
+
+.locations ul {
+  width: calc(50% - 20px);
+  margin-right: 10px;
+}
+
+.hours ul {
+  width: calc(33.3% - 30px);
+  margin-right: 10px;
+}
+
+.aboutWrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.aboutSplash {
+  background: url(./assets/hero_02.jpg);
+  background-size: cover;
+  margin-top: 20px;
+}
+
+.aboutHeading {
+  margin: 0 auto;
+  padding: 140px 0;
+  text-align: center;
+}
+
+.aboutHeading img {
+  width: 17%;
+}
+
+.blockQuote-Wrapper {
+  width: 35%;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 10px;
+}
+
+.blockQuote-Wrapper p {
+  padding-left: 20px;
+}
+
+.about-Circle {
+  background: white;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  color: black;
+  text-align: center;
+  position: absolute;
+  left: calc(50% - 50px);
+  bottom: -25px;
+  border-radius: 200px;
+}
+
+.about-Circle:hover {
+  color: white;
+  background: black;
+}
+
+.blockQuote {
+  padding: 50px;
+  position: relative;
+}
+
+.blockQuote p {
+  font-size: .8rem;
+}
+
+.blockQuote-Wrapper:before {
+  content: "";
+  border-bottom: 5px solid black;
+  width: 20px;
+  position: absolute;
+  top: -10;
+}
+
+.blockQuote-Bold {
+  font-weight: 600;
+}
+
+.chefSplash-BigBox {
+  width: 23%;
+  padding: 25px 0 35px;
+  background: rgba(150, 133, 141, 0.3);
+  margin-left: 60%;
+}
+
+.chefSplash-BigBox .chefSplash-SmallBox {
+  padding: 20px;
+  background: #97858D;
+  text-align: center;
+  color: white;
+}
+
+.chefSplash-BigBox .chefSplash-SmallBox h3 {
+  margin: 0 0 30px;
+  position: relative;
+}
+
+.chefSplash-BigBox .chefSplash-SmallBox h3:after {
+  content: "";
+  border-top: 2px solid white;
+  width: 40px;
+  position: absolute;
+  top: 30px;
+  left: calc(50% - 25px);
+}
+
+.chefSplash-BigBox .chefSplash-SmallBox p {
+  line-height: 2.5;
+}
+
+.chefSplash {
+  background: url(./assets/chef.jpg);
+  background-size: cover;
+  padding-top: 350px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.blogSplash {
+  background: url(./assets/blog_hero.jpg);
+  background-size: cover;
+  margin-top: 20px;
+}
+
+.blogGallery {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.blogGallery-filter {
+  background: #B44A47;
+  padding: 10px;
+  text-align: center;
+  margin: 50px 0 30px;
+}
+
+.blogGallery-filter h6, .blogGallery-filter form, .blogGallery-filter button {
+  display: inline-block;
+  background: #B44A47;
+}
+
+.blogGallery-filter form {
+  margin: 0 15px;
+  width: 200px;
+}
+
+.blogGallery-filter select {
+  border: none;
+  border-radius: 0;
+  color: white;
+  border-bottom: 1px solid white;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  background: url(./assets/white-arrow-down.png);
+  padding-right: 125px;
+}
+
+.blogGallery-filter button {
+  border: 1px solid white;
+  padding: 5px 15px;
+  color: white;
+}
+
+.blogGallery-filter h6 {
+  font-size: 1.2rem;
+  margin: 0;
+  padding-right: 20px;
+}
+
+.galleryBox {
+  border: 1px solid grey;
+  margin: 20px 10px;
+  width: calc(33.3% - 20px);
+  float: left;
+}
+
+.galleryBox p.galleryDescription {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin: 20px 0 0;
+  position: relative;
+}
+
+.galleryBox p.galleryDescription:before {
+  content: "";
+  border: 2px solid black;
+  display: inline-block;
+  width: 10px;
+  position: absolute;
+  left: 20px;
+  top: 3px;
+}
+
+.galleryBox img {
+  width: 100%;
+}
+
+.galleryBox div {
+  display: inline-block;
+  width: 40;
+  vertical-align: middle;
+  font-size: .9rem;
+}
+
+.galleryBox p {
+  padding: 10px 20px;
+  color: black;
+  font-weight: 600;
+}
+
+.loadMore {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.loadMore .galleryButton {
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+.wineSplash {
+  background: url(./assets/wine.jpg);
+  background-size: cover;
+  padding-top: 350px;
+  padding-bottom: 100px;
+  position: relative;
+}

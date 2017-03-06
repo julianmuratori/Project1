@@ -1,0 +1,43 @@
+.chefSplash-BigBox {
+  width: 23%;
+  padding: 25px 0 35px;
+  background: rgba(150,133,141,0.3);
+  margin-left: 60%;
+
+
+
+  .chefSplash-SmallBox {
+    padding: 20px;
+    background: #97858D;
+    text-align: center;
+    color: white;
+
+    h3 {
+      margin: 0 0 30px;
+      position: relative;
+
+      &:after {
+        content: "";
+        border-top: 2px solid white;
+        width: 40px;
+        position: absolute;
+        top: 30px;
+        left: calc(50% - 25px);
+
+      }
+    }
+
+    p {
+      line-height: 2.5;
+    }
+  }
+}
+
+.chefSplash {
+  background: url(./assets/chef.jpg);
+  background-size: cover;
+  padding-top: 350px;
+  padding-bottom: 100px;
+  position: relative;
+  // padding-left
+}
